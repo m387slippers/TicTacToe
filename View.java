@@ -31,6 +31,7 @@ public class View extends JFrame {
 				}
 			}
 		});
+		System.out.println("Testing the gitHub comit feature.");
 	}
 
 	/**
