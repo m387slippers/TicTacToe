@@ -51,12 +51,11 @@ public class View extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
-		//create the grid layout.
+	
 		setContentPane(contentPane);
 		
-		
-		//extract the  method that creates all of the buttons. 
-		// 
+		 
+		// This should set the layout to absolute layout. 
 		contentPane.setLayout(null);
 		
 		//following 3 lines make the board.

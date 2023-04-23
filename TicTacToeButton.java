@@ -20,6 +20,8 @@ public class TicTacToeButton extends JButton {
 	/**
 	 * Constructor stub. Want to pass coordinate point/location in during the instantiation of the button. 
 	 * On board it says something about making a call to the super constructor. 
+	 * 
+	 * Calls Controller.changeTurn(). I think leaving this in the constructor was a mistake.
 	 */
 	public TicTacToeButton(int rw, int col) {
 		int row = rw;
@@ -39,15 +41,10 @@ public class TicTacToeButton extends JButton {
 				 * check for win condition. 
 				 */
 				System.out.println("X");
+				Controller.changeTurn();
 			}
 			}
 		));
 	}
 
-	
-	@Override
-	public String toString() {
-		return "TicTacToeButton ";
-	}	
-	
 }
